@@ -8,4 +8,5 @@ bind_port = $PORT
 EOF
 
 echo $PORT
-/frps/frps -c /frps/frps.ini
+echo $token
+/frps/frps -c /frps/frps.ini -t $token
