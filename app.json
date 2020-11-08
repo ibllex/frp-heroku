@@ -10,6 +10,6 @@
             "value": "ba20a667-3d28-4c84-8699-a0c7386bd47d"        
         }
     },
-  "repository": "https://github.com/work-chausat/frp-heroku",
+  "repository": "https://github.com/luckywuhan/frp-heroku",
   "stack": "container"
 }
