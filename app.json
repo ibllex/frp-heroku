@@ -5,10 +5,6 @@
     "chausat"
   ],
   "env": {
-        "PORT": {
-            "description": "frp port",
-            "value": "7000"        
-        },
         "TOKEN": {
             "description": "frp token",
             "value": "123456"        
