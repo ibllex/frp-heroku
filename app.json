@@ -5,10 +5,6 @@
     "chausat"
   ],
   "env": {
-        "TOKEN": {
-            "description": "frp token",
-            "value": "123456"        
-        }
     },
   "repository": "https://github.com/luckywuhan/frp-heroku",
   "stack": "container"
