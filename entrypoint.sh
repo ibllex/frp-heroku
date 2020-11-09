@@ -6,7 +6,7 @@ cat <<-EOF > /frps/frps.ini
 
 [common]
 bind_addr = 0.0.0.0
-bind_port = 7000
+bind_port = $PORT
 
 EOF
 
