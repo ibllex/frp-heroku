@@ -4,9 +4,11 @@ cd /frps
 
 cat <<-EOF > /frps/frps.ini
 [common]
-bind_port = $PORT
+server_addr = 0.0.0.0
+server_port = 7000
+token = $TOKEN
 EOF
 
 echo $PORT
-echo $token
-/frps/frps -c /frps/frps.ini -t $token
+echo $TOKEN
+/frps/frps -c /frps/frps.ini
